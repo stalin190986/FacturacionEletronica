@@ -31,7 +31,7 @@ public class SriWsRecepcionTest {
    @Test
     //@Ignore
     public void testService() throws Exception {
-
+        //Metodo TEST
         parametrosConfiguracionUtil = new ParametrosConfiguracionUtil();
         OUTPUT_DIRECTORY = parametrosConfiguracionUtil.obtenerConfiguracion("output.directory");
         WSConsultaRecepcionSriPruebas client = new WSConsultaRecepcionSriPruebas();
