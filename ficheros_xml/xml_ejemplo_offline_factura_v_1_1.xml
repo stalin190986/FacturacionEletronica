@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>
+		<ambiente>1</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>SOLUCIONES DE SOFTWARE SESCOI CIA. LTDA.</razonSocial>
+		<nombreComercial>SOLUCIONES DE SOFTWARE SESCOI CIA. LTDA.</nombreComercial>
+		<ruc>0992890142001</ruc>
+		<claveAcceso>2303201601099289014200110010010000000014126153316</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>501</ptoEmi>
+		<secuencial>000000001</secuencial>
+		<dirMatriz>RUMICHACA Número: 1206 y AGUIRRE Piso 2 Oficina: DPTO.2</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>23/03/2016</fechaEmision>
+		<dirEstablecimiento>RUMICHACA Número: 1206 y AGUIRRE Piso 2 Oficina: DPTO.2</dirEstablecimiento>
+		<contribuyenteEspecial></contribuyenteEspecial>
+		<obligadoContabilidad>SI</obligadoContabilidad>
+		<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+		<guiaRemision>001-001-000000001</guiaRemision>
+		<razonSocialComprador>PRUEBAS SERVICIO DERENTAS INTERNAS</razonSocialComprador>
+		<identificacionComprador>1760013210001</identificacionComprador>
+		<direccionComprador>salinas y santiago</direccionComprador>
+		<totalSinImpuestos>64.94</totalSinImpuestos>
+		<totalDescuento>5.00</totalDescuento>
+		<totalConImpuestos>
+			<totalImpuesto>
+				<codigo>3</codigo>
+				<codigoPorcentaje>3072</codigoPorcentaje>
+				<baseImponible>64.94</baseImponible>
+				<valor>3.25</valor>
+			</totalImpuesto>
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>2</codigoPorcentaje>
+				<descuentoAdicional>5.00</descuentoAdicional>
+				<baseImponible>68.19</baseImponible>
+				<valor>7.58</valor>
+			</totalImpuesto>
+		</totalConImpuestos>
+		<propina>0.00</propina>
+		<importeTotal>70.77</importeTotal>
+		<moneda>DOLAR</moneda>
+	</infoFactura>
+	<detalles>
+		<detalle>
+			<codigoPrincipal>125BJC-01</codigoPrincipal>
+			<codigoAuxiliar>1234D56789-A</codigoAuxiliar>
+			<descripcion>Dominio hosting PHP</descripcion>
+			<cantidad>2.542563</cantidad>
+			<precioUnitario>25.542365</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>64.94</precioTotalSinImpuesto>
+			<detallesAdicionales>
+				<detAdicional nombre="ABCD" valor="EFGH"/>
+				<detAdicional nombre="ABCD " valor="EFGH"/>
+				<detAdicional nombre="ABCD" valor="EFGH"/>
+			</detallesAdicionales>	
+			<impuestos>
+				<impuesto>
+					<codigo>3</codigo>
+					<codigoPorcentaje>3072</codigoPorcentaje>
+					<tarifa>5</tarifa>
+					<baseImponible>64.94</baseImponible>
+					<valor>3.25</valor>
+				</impuesto>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>2</codigoPorcentaje>
+					<tarifa>12</tarifa>
+					<baseImponible>68.19</baseImponible>
+					<valor>8.18</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+	</detalles>
+	<infoAdicional>
+		<campoAdicional nombre="Codigo Impuesto ISD">4580</campoAdicional>
+		<campoAdicional nombre="Impuesto ISD">15.42x</campoAdicional>
+	</infoAdicional>
+</factura>
+	
+		

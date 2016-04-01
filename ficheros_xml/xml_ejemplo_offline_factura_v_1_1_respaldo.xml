@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>
+		<ambiente>1</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>EMPRESA PUBLICA DE HIDROCARBUROS DEL ECUADOR EP PETROECUADOR</razonSocial>
+		<nombreComercial>EMPRESA PUBLICA DE HIDROCARBUROS DEL ECUADOR EP PETROECUADOR</nombreComercial>
+		<ruc>1768153530001</ruc>
+		<claveAcceso>0403201301176815353000110015010000000081234567816</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>501</ptoEmi>
+		<secuencial>000000008</secuencial>
+		<dirMatriz>Alpallana</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>04/03/2013</fechaEmision>
+		<dirEstablecimiento>Alpallana</dirEstablecimiento>
+		<contribuyenteEspecial>5368</contribuyenteEspecial>
+		<obligadoContabilidad>SI</obligadoContabilidad>
+		<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+		<guiaRemision>001-001-000000001</guiaRemision>
+		<razonSocialComprador>PRUEBAS SERVICIO DERENTAS INTERNAS</razonSocialComprador>
+		<identificacionComprador>1760013210001</identificacionComprador>
+		<direccionComprador>salinas y santiago</direccionComprador>
+		<totalSinImpuestos>64.94</totalSinImpuestos>
+		<totalDescuento>5.00</totalDescuento>
+		<totalConImpuestos>
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>2</codigoPorcentaje>
+				<descuentoAdicional>5.00</descuentoAdicional>
+				<baseImponible>68.19</baseImponible>
+				<valor>7.58</valor>
+			</totalImpuesto>
+			<totalImpuesto>
+				<codigo>3</codigo>
+				<codigoPorcentaje>3072</codigoPorcentaje>
+				<baseImponible>64.94</baseImponible>
+				<valor>3.25</valor>
+			</totalImpuesto>
+		</totalConImpuestos>
+		<propina>0.00</propina>
+		<importeTotal>73.09</importeTotal>
+		<moneda>DOLAR</moneda>
+	</infoFactura>
+	<detalles>
+		<detalle>
+			<codigoPrincipal>125BJC-01</codigoPrincipal>
+			<codigoAuxiliar>1234D56789-A</codigoAuxiliar>
+			<descripcion>DERIVADOS PETRÓLEO</descripcion>
+			<cantidad>2.542563</cantidad>
+			<precioUnitario>25.542365</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>64.94</precioTotalSinImpuesto>
+			<detallesAdicionales>
+				<detAdicional nombre="ABCD" valor="EFGH"/>
+				<detAdicional nombre="ABCD " valor="EFGH"/>
+				<detAdicional nombre="ABCD" valor="EFGH"/>
+			</detallesAdicionales>	
+			<impuestos>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>2</codigoPorcentaje>
+					<tarifa>12</tarifa>
+					<baseImponible>68.19</baseImponible>
+					<valor>8.18</valor>
+				</impuesto>
+				<impuesto>
+					<codigo>3</codigo>
+					<codigoPorcentaje>3072</codigoPorcentaje>
+					<tarifa>5</tarifa>
+					<baseImponible>64.94</baseImponible>
+					<valor>3.25</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+	</detalles>
+	<retenciones>
+		<retencion>
+			<codigo>4</codigo>
+			<codigoPorcentaje>327</codigoPorcentaje>
+			<tarifa>0.20</tarifa>
+			<valor>0.13</valor>
+		</retencion>
+		<retencion>
+			<codigo>4</codigo>
+			<codigoPorcentaje>328</codigoPorcentaje>
+			<tarifa>0.30</tarifa>
+			<valor>0.19</valor>
+		</retencion>
+		<retencion>
+			<codigo>4</codigo>
+			<codigoPorcentaje>3</codigoPorcentaje>
+			<tarifa>1</tarifa>
+			<valor>2.00</valor>
+		</retencion>
+	</retenciones>
+	<infoAdicional>
+		<campoAdicional nombre="Codigo Impuesto ISD">4580</campoAdicional>
+		<campoAdicional nombre="Impuesto ISD">15.42x</campoAdicional>
+	</infoAdicional>
+</factura>
+	
+		
